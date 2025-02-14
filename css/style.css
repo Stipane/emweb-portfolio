@@ -256,6 +256,21 @@ nav ul a {
 .details span {
   color: black;
 }
+
+.cv-button {
+  padding: 10px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.cv-download {
+  text-align: center;
+}
 /* End of Main Header Section */
 
 /* Language Slideshow */
@@ -446,6 +461,7 @@ nav ul a {
   flex-flow: row wrap;
   justify-content: space-evenly;
   width: 100%;
+  gap: 40px;
 }
 /* End of Projects Section */
 
@@ -670,9 +686,7 @@ footer {
   .project-title {
     font-size: x-large;
   }
-  .row1 {
-    gap: 40px;
-  }
+
     /* Contact Section */
     #contact {
       width: 100%;
@@ -694,5 +708,11 @@ footer {
       font-size: large;
       width: 100%;
     }
+}
+
+@media screen and (max-width: 1000px) {
+  .row1 {
+    gap: 40px;
+  }
 }
 
